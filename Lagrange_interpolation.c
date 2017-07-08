@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define N 10 //¹²¸ø³öN+1¸öµãµÄÖµ
-#define M 5 //ĞèÒª¼ÆËãµÄµãÓĞM¸ö
+#define N 10 //å…±ç»™å‡ºN+1ä¸ªç‚¹çš„å€¼
+#define M 5 //éœ€è¦è®¡ç®—çš„ç‚¹æœ‰Mä¸ª
 double function(double x);
 double lagrangeinterpolation(double a[2][N+1],double x[M]);
 int main()
