@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#define a 0.0 //x�ĳ�ʼȡֵ
-#define b 1.0 //x����ֵ
+#define a 0.0 //x的初始取值
+#define b 1.0 //x的终值
 #define N 20
-#define alpha 1.0 //y�ĳ�ֵ
+#define alpha 1.0 //y的初值
 double function(double x,double y);
 int main()
 {
