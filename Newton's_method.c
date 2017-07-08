@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#define ALP 2.5 //³õÖµ
-#define EPS1 1e-6 //º¯ÊıÖµ¶ÔÓ¦µÄ¾«¶ÈÒªÇó
-#define EPS2 1e-4 //µ¼ÊıÖµ¶ÔÓ¦µÄ¾«¶ÈÒªÇó
-#define EPS3 1e-6 //Çóµ¼º¯ÊıÖĞµÄ¾«¶ÈÒªÇó
-#define N 20 //×î´óµü´ú´ÎÊı
+#define ALP 2.5 //åˆå€¼
+#define EPS1 1e-6 //å‡½æ•°å€¼å¯¹åº”çš„ç²¾åº¦è¦æ±‚
+#define EPS2 1e-4 //å¯¼æ•°å€¼å¯¹åº”çš„ç²¾åº¦è¦æ±‚
+#define EPS3 1e-6 //æ±‚å¯¼å‡½æ•°ä¸­çš„ç²¾åº¦è¦æ±‚
+#define N 20 //æœ€å¤§è¿­ä»£æ¬¡æ•°
 double derivative(double x);
 double function(double x);
 int main()
